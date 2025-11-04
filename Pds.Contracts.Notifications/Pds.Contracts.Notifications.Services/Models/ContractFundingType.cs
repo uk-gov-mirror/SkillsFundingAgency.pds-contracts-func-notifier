@@ -255,6 +255,12 @@ namespace Pds.Contracts.Notifications.Services.Models
         /// Taking teaching further year 2.
         /// </summary>
         [Display(Name = "Taking teaching further", Description = "Taking teaching further")]
-        TakingTeachingFurtherYear2 = 40
+        TakingTeachingFurtherYear2 = 40,
+
+        /// <summary>
+        /// Construction Technical Excellence Colleges.
+        /// </summary>
+        [Display(Name = "Construction Technical Excellence Colleges", Description = "Construction Technical Excellence Colleges")]
+        ConstructionTechnicalExcellenceColleges = 41,
     }
 }
